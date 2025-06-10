@@ -3,5 +3,5 @@ This repository contains data to test the [Omnifluss](https://github.com/rki-mf1
 The repository is structured in a way such that every virus has separate branch for its case-specific data.
 The data collected in this repository originates from publically available resources only. 
 
-### Currently supported viruses:
- - INV (Influenza virus)
+### Currently supported test cases (branches):
+ - INV_illumina (Influenza virus + Illumina data)
