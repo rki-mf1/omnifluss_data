@@ -6,6 +6,6 @@ The index subdirectory `kmaindex` is what has to be passed to omnifluss as a seg
 The index is a sparse KMA index. <br>
 
 ## Preprocessing
-cd kmaindex
-for i in {HA,MP,NA,NP,NS,PA,PB1,PB2}; do ln -s ../${i}.segment.fasta ${i}.segment.fasta; done
-for i in {HA,MP,NA,NP,NS,PA,PB1,PB2}; do kma index -i ../${i}.segment.fasta -o ${i}.segment -Sparse; done
+cd kmaindex <br>
+for i in {HA,MP,NA,NP,NS,PA,PB1,PB2}; do ln -s ../${i}.segment.fasta ${i}.segment.fasta; done <br>
+for i in {HA,MP,NA,NP,NS,PA,PB1,PB2}; do kma index -i ../${i}.segment.fasta -o ${i}.segment -Sparse; done <br>
