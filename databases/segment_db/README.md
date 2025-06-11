@@ -1,11 +1,8 @@
-# segment_db 
+# databases/segment_db 
 
-## Info 
-This database contains a few publically available full-segment assemblies of the Influenza virus. <br>
-The index subdirectory `kmaindex` is what has to be passed to omnifluss as a segment database. <br>
-The index is a sparse KMA index. <br>
+## ena_segment_db.tar.gz 
+GZIP compressed database containing a few publically available full-segment assemblies of the Influenza virus from the European Nucleotide Archive (ENA). <br>
+The database is indexed with a sparse KMA index. <br>
 
 ## Preprocessing
-cd kmaindex <br>
-for i in {HA,MP,NA,NP,NS,PA,PB1,PB2}; do ln -s ../${i}.segment.fasta ${i}.segment.fasta; done <br>
-for i in {HA,MP,NA,NP,NS,PA,PB1,PB2}; do kma index -i ../${i}.segment.fasta -o ${i}.segment -Sparse; done <br>
+for i in {HA,MP,NA,NP,NS,PA,PB1,PB2}; do kma index -i ${i}.segment.fasta -o ${i}.segment -Sparse; done <br>
