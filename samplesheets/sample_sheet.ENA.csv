@@ -1,3 +1,3 @@
 sample,fastq_1,fastq_2
 SRR31143054_small,https://github.com/rki-mf1/omnifluss_data/raw/INV_illumina/fastq/size_small/SRR31143054_1.fastq.gz,https://github.com/rki-mf1/omnifluss_data/raw/INV_illumina/fastq/size_small/SRR31143054_2.fastq.gz
-SRR31096286_medium,https://github.com/rki-mf1/omnifluss_data/raw/INV_illumina/fastq/size_medium/SRR31096286_1.subsampled.fastq.gz,https://github.com/rki-mf1/omnifluss_data/blob/INV_illumina/fastq/size_medium/SRR31096286_2.subsampled.fastq.gz
+SRR31096286_medium,https://github.com/rki-mf1/omnifluss_data/raw/INV_illumina/fastq/size_medium/SRR31096286_1.subsampled.fastq.gz,https://github.com/rki-mf1/omnifluss_data/raw/INV_illumina/fastq/size_medium/SRR31096286_2.subsampled.fastq.gz
