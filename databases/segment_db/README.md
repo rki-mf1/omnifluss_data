@@ -4,5 +4,8 @@
 GZIP compressed database containing a few publically available full-segment assemblies of the Influenza virus from the European Nucleotide Archive (ENA). <br>
 The database is indexed with a sparse KMA index. <br>
 
-## Preprocessing
+## ena_segment_db_noHQmatchForHA.tar.gz 
+Same as above but with less sequences in the HA segment database which will cause missing top1 reference selection (in KMA's `.spa` file) when using the ENA small and medium samples in `/fastq`.
+
+## Preprocessing of the databases
 for i in {HA,MP,NA,NP,NS,PA,PB1,PB2}; do kma index -i ${i}.segment.fasta -o ${i}.segment -Sparse; done <br>
